@@ -1,0 +1,111 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+.main{
+  width: 100%;
+  background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(background.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 110vh;
+}
+
+.navbar{
+  width: 1500px;
+  height: 75px;
+  margin: auto;
+
+}
+
+.logo{
+  height: 80px;
+  position: absolute;
+  top: 0;          
+  left: 0;          
+  padding: 10px; 
+}
+.image{
+  width: auto;
+  height: 700px;
+  position: absolute;
+  right: 150px;
+  padding: 120px;
+}
+.menu{
+  position: absolute; 
+  top: 0;          
+  right: 100px;  
+  padding: 10px;
+}
+
+ul{
+  float: left;
+  display: flex;
+}
+
+ul li{
+  list-style: none;
+  margin-left: 200px;
+  margin-top: 27px;
+  font-size: 20px;
+}
+
+ul li a{
+  text-decoration: none;
+  color: white;
+  font-family: Arial;
+  font-weight: bold;
+  transition: 0.1s ease-in-out;
+} 
+
+ul li a:hover{
+  color: #c71414;
+}
+
+.content{
+  width: 1200px;
+  height: auto;
+  margin: 250px;
+  color: aliceblue;
+  position: relative;
+}
+
+.content .par{
+  padding-left: 100px;
+  padding-bottom: 25px;
+  font-family: Arial;
+  letter-spacing: 1.2px;
+  line-height: 30px;
+}
+
+.content h1{
+  font-family: 'Times New Roman';
+    font-size: 80px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+.content span{
+  color: #c71414;
+  font-size: 120px
+}
+
+.s-icons {
+  position: absolute;
+  bottom: 200px;
+  left: 300px; 
+}
+
+.s-icons a {
+  color: white;
+  margin-left: 10px; 
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.s-icons a:hover {
+  color: #c71414;
+}
